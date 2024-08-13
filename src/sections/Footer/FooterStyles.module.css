@@ -1,0 +1,8 @@
+.contaioner{
+    text-align: center;
+    p{
+        font-size: 60px;
+        color: var(--footer-text-color);
+        
+    }
+}
