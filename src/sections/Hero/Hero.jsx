@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./HeroStyles.module.css"
-import heroImg from '../../assets/hero-img.png'
+// import heroImg from '../../assets/hero-img.png'
+import ankon from '../../assets/c-ankon-2.png'
 import sun from "../../assets/sun.svg"
 import moon from "../../assets/moon.svg"
 import twitterLight from "../../assets/twitter-light.svg"
@@ -24,7 +25,7 @@ function Hero() {
         <section id='hero' className={styles.container}>
 
             <div className={styles.colorModeContainer}>
-                <img src={heroImg} alt='Profile picture of Ankon' />
+                <img src={ankon} alt='Profile picture of Ankon' />
 
                 <img className={styles.colorMode}
                     src={themeIcon}
